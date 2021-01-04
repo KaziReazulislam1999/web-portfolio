@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1{
@@ -27,12 +28,14 @@ h3{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
+    margin-top: 30px;
 }
 
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    
 }
 section{
     height: 500px;
@@ -72,6 +75,10 @@ h3.orange-highlight{
     background-repeat: no-repeat;
     background-position: left;
     
+}
+h1.experiences-heading{
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 #full-stack{
     border-left: 7px solid #000;
